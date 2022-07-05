@@ -126,24 +126,6 @@ $( document ).ready(code_toggle);
 ```
 
 
-
-
-<script>
-code_show=true; 
-function code_toggle() {
- if (code_show){
- $('div.input').hide();
- } else {
- $('div.input').show();
- }
- code_show = !code_show
-} 
-$( document ).ready(code_toggle);
-</script>
-<form action="javascript:code_toggle()"><input type="submit" value="Click here to toggle on/off the raw code."></form>
-
-
-
 ## II. Methodology
 
 Functions used to perform the study are stored in the <code>music_functions.py</code> file for notebook brevity. 
